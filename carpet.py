@@ -19,7 +19,6 @@ class Carpet:
             The array of Strings to build this carpet from. Default is []
             The list of strings passed will be copied, so new objects are made (to avoid reference issues)
         """
-        print(f"Strip: {strips}")
         self.strips = strips.copy()
         self.length = len(strips)
     
